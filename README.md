@@ -9,6 +9,23 @@
 - 单文件，`ledgercheck.py` 拷走就能用
 - 只读 CSV，不修改任何文件
 
+<!-- ipos:install -->
+## 安装
+
+零依赖，Python 3.10+ 即可：
+
+```bash
+pip install money3move-ledgercheck
+```
+
+装完直接用命令名调用：
+
+```bash
+ledgercheck --help
+```
+
+也可以不用安装，直接把 `ledgercheck.py` 拷走用——它只依赖标准库。
+
 ## 为什么需要它
 
 账目最耗神的地方不是加总，而是**解释**。
